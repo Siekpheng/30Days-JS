@@ -26,3 +26,7 @@ console.log(Math.round(Math.random() * (101-50)) + 50);
 //9
 console.log(Math.round(Math.random() * 256));
 //10
+let string3 = "JavaScript";
+let random_number = Math.floor(Math.random() * 10);
+console.log(string3.charAt(random_number));
+//11
