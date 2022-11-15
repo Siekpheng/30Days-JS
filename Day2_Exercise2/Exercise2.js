@@ -17,8 +17,8 @@ console.log(string1.includes("on"));
 let string2 = "jargon";
 console.log(string2.includes("on"));
 //6
-let sentence = "I hope this course is not full of jargon.";
-console.log(sentence.includes("jargon"));
+let sentence1 = "I hope this course is not full of jargon.";
+console.log(sentence1.includes("jargon"));
 //7
 console.log(Math.round(Math.random() * 101));
 //8
@@ -30,3 +30,7 @@ let string3 = "JavaScript";
 let random_number = Math.floor(Math.random() * 10);
 console.log(string3.charAt(random_number));
 //11
+console.log("1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125");
+//12
+let sentence2 = "You cannot end a sentence with because because because is a conjunction";
+console.log(sentence2.substring(31, 54));
