@@ -20,3 +20,9 @@ console.log(string2.includes("on"));
 let sentence = "I hope this course is not full of jargon.";
 console.log(sentence.includes("jargon"));
 //7
+console.log(Math.round(Math.random() * 101));
+//8
+console.log(Math.round(Math.random() * (101-50)) + 50);
+//9
+console.log(Math.round(Math.random() * 256));
+//10
